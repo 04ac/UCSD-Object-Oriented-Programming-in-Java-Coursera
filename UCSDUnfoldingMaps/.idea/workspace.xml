@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c87f2a66-c84d-4466-8c7d-2f3bb5635a9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UCSDUnfoldingMaps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/2.5_week.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/HelloUCSDWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/LifeExpectancyWorldBank.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/LifeExpectancyWorldBankModule3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/OfflineMapApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/airports.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/blankDark-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/blankLight-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/city-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/countries.geo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/Airport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/EarthquakeCityMapDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/LifeExpectancy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/LocationTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/MyDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/MyPApplet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/SearchAndSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/SimpleLocation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/demos/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/java.policy.applet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module1/Hello.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module1/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module3/EarthquakeCityMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module4/CityMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module4/EarthquakeCityMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module4/EarthquakeMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module4/LandQuakeMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module4/OceanQuakeMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module5/CityMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module5/CommonMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module5/EarthquakeCityMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module5/EarthquakeMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module5/LandQuakeMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module5/OceanQuakeMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module6/AirportMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module6/AirportMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module6/CityMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module6/CommonMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module6/EarthquakeCityMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module6/EarthquakeMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module6/LandQuakeMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module6/LifeExpectancy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/module6/OceanQuakeMarker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/palmTrees.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/parsing/ParseFeed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/quiz1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/quiz2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/routes.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/sortAndPrint.test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test1.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2.5_week.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LifeExpectancyWorldBank.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/LifeExpectancyWorldBankModule3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/airports.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/blankDark-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/blankLight-1-3.mbtiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/city-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/countries.geo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/palmTrees.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/quiz1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/quiz2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/routes.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/sortAndPrint.test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test1.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test1.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test2.atom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test2.out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-armv6hf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-linux-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-macosx-universal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-windows-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt-natives-windows-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gluegen-rt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-linux-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-linux-armv6hf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-linux-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-macosx-universal.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-windows-amd64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all-natives-windows-i586.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogl-all.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json4processing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/libTUIO.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/unfolding.0.9.7-uscd.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloUCSDWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfflineMapApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/EarthquakeCityMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/LifeExpectancy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/LocationTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/MyDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/MyPApplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/SearchAndSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/SimpleLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/demos/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module1/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module1/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module3/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/CityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/EarthquakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/LandQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module4/OceanQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/CityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/CommonMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/EarthquakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/LandQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module5/OceanQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/AirportMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/AirportMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/CityMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/CommonMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/EarthquakeCityMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/EarthquakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/LandQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/LifeExpectancy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module6/OceanQuakeMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parsing/ParseFeed.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LENgUDgsmchNTMyQKPSCwxJTWQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/areen/Desktop/Programming/Java practice/DukeUCSD courses/UCSD Course 3/Week 2 UCSD 3/UCSDUnfoldingMaps&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\areen\Desktop\Programming\Java practice\DukeUCSD courses\UCSD Course 3\Week 2 UCSD 3\UCSDUnfoldingMaps" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c87f2a66-c84d-4466-8c7d-2f3bb5635a9a" name="Changes" comment="" />
+      <created>1675432397449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675432397449</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
