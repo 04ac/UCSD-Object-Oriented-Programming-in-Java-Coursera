@@ -11,8 +11,10 @@ import de.fhpotsdam.unfolding.geo.Location;
 import de.fhpotsdam.unfolding.marker.AbstractShapeMarker;
 import de.fhpotsdam.unfolding.marker.Marker;
 import de.fhpotsdam.unfolding.marker.MultiMarker;
+import de.fhpotsdam.unfolding.marker.SimplePointMarker;
 import de.fhpotsdam.unfolding.providers.Google;
 import de.fhpotsdam.unfolding.providers.MBTilesMapProvider;
+import de.fhpotsdam.unfolding.providers.Microsoft;
 import de.fhpotsdam.unfolding.utils.MapUtils;
 import parsing.ParseFeed;
 import processing.core.PApplet;
@@ -70,7 +72,7 @@ public class EarthquakeCityMap extends PApplet {
 		    earthquakesURL = "2.5_week.atom";  // The same feed, but saved August 7, 2015
 		}
 		else {
-			map = new UnfoldingMap(this, 200, 50, 650, 600, new Google.GoogleMapProvider());
+			map = new UnfoldingMap(this, 200, 50, 650, 600, new Microsoft.AerialProvider());
 			// IF YOU WANT TO TEST WITH A LOCAL FILE, uncomment the next line
 		    //earthquakesURL = "2.5_week.atom";
 		}
@@ -146,6 +148,18 @@ public class EarthquakeCityMap extends PApplet {
 	private void selectMarkerIfHover(List<Marker> markers)
 	{
 		// TODO: Implement this method
+		if (lastSelected != null) {
+			return;
+		}
+		for (Marker marker : markers) {
+			if (marker.isInside(map, mouseX, mouseY) && !marker.isHidden()) {
+				if (!marker.isSelected()) {
+					marker.setSelected(true);
+				}
+				lastSelected = (CommonMarker) marker;
+				return;
+			}
+		}
 	}
 	
 	/** The event handler for mouse clicks
@@ -159,6 +173,69 @@ public class EarthquakeCityMap extends PApplet {
 		// TODO: Implement this method
 		// Hint: You probably want a helper method or two to keep this code
 		// from getting too long/disorganized
+
+		if (lastClicked != null) {
+			lastClicked = null;
+			unhideMarkers();
+		} else {
+			if (lastSelected == null) {
+				unhideMarkers();
+			} else {
+				// if a CityMarker is selected rather than EarthquakeMarker, then make city = 1
+				int city = 0;
+				for (Marker cityMarker : cityMarkers) {
+					if (cityMarker == lastSelected) {
+						city = 1;
+					}
+				}
+
+				if (city == 0) {
+					displayCitiesInThreatCircleOfSelectedEarthquake();
+				} else {
+					displayEarthquakesAffectingSelectedCity();
+				}
+			}
+		}
+	}
+
+	private void displayEarthquakesAffectingSelectedCity() {
+		CityMarker cm = (CityMarker) lastSelected;
+		for (Marker m : quakeMarkers) {
+			EarthquakeMarker em = (EarthquakeMarker) m;
+			double threatCircle = em.threatCircle();
+			if (em.getDistanceTo(cm.getLocation()) <= threatCircle) {
+				em.setHidden(false);
+			} else {
+				em.setHidden(true);
+			}
+		}
+
+		for (Marker m : cityMarkers) {
+			if (m != cm) {
+				m.setHidden(true);
+			} else {
+				m.setHidden(false);
+			}
+		}
+	}
+
+	private void displayCitiesInThreatCircleOfSelectedEarthquake() {
+		EarthquakeMarker em = (EarthquakeMarker) lastSelected;
+
+		double threatCircle = em.threatCircle();
+
+		for (Marker cm : cityMarkers) {
+			if (em.getDistanceTo(cm.getLocation()) <= threatCircle) {
+				cm.setHidden(false);
+			} else {
+				cm.setHidden(true);
+			}
+		}
+		for (Marker m : quakeMarkers) {
+			if (m != em) {
+				m.setHidden(true);
+			}
+		}
 	}
 	
 	
@@ -291,28 +368,31 @@ public class EarthquakeCityMap extends PApplet {
 
 		// some countries represented it as MultiMarker
 		// looping over SimplePolygonMarkers which make them up to use isInsideByLoc
-		if(country.getClass() == MultiMarker.class) {
-				
+		if (country.getClass() == MultiMarker.class) {
+
 			// looping over markers making up MultiMarker
-			for(Marker marker : ((MultiMarker)country).getMarkers()) {
-					
+			for (Marker marker : ((MultiMarker) country).getMarkers()) {
+
 				// checking if inside
-				if(((AbstractShapeMarker)marker).isInsideByLocation(checkLoc)) {
+				if (((AbstractShapeMarker) marker).isInsideByLocation(checkLoc)) {
 					earthquake.addProperty("country", country.getProperty("name"));
-						
+
 					// return if is inside one
 					return true;
 				}
 			}
 		}
-			
+
 		// check if inside country represented by SimplePolygonMarker
-		else if(((AbstractShapeMarker)country).isInsideByLocation(checkLoc)) {
+		else if (((AbstractShapeMarker) country).isInsideByLocation(checkLoc)) {
 			earthquake.addProperty("country", country.getProperty("name"));
-			
+
 			return true;
 		}
 		return false;
 	}
 
+	public static void main(String[] args) {
+		PApplet.main("module5.EarthquakeCityMap");
+	}
 }
