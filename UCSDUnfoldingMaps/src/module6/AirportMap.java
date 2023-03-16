@@ -28,7 +28,7 @@ public class AirportMap extends PApplet {
 	List<Marker> routeList;
 	
 	public void setup() {
-		// setting up PAppler
+		// setting up PApplet
 		size(800,600, OPENGL);
 		
 		// setting up map and default events
@@ -48,6 +48,7 @@ public class AirportMap extends PApplet {
 	
 			m.setRadius(5);
 			airportList.add(m);
+			System.out.println(m.getProperties());
 			
 			// put airport in hashmap with OpenFlights unique id for key
 			airports.put(Integer.parseInt(feature.getId()), feature.getLocation());
@@ -63,7 +64,8 @@ public class AirportMap extends PApplet {
 			// get source and destination airportIds
 			int source = Integer.parseInt((String)route.getProperty("source"));
 			int dest = Integer.parseInt((String)route.getProperty("destination"));
-			
+			System.out.println(route.getProperties());
+
 			// get locations for airports on route
 			if(airports.containsKey(source) && airports.containsKey(dest)) {
 				route.addLocation(airports.get(source));
@@ -72,16 +74,16 @@ public class AirportMap extends PApplet {
 			
 			SimpleLinesMarker sl = new SimpleLinesMarker(route.getLocations(), route.getProperties());
 		
-			System.out.println(sl.getProperties());
+			//System.out.println(sl.getProperties());
 			
 			//UNCOMMENT IF YOU WANT TO SEE ALL ROUTES
-			//routeList.add(sl);
+			routeList.add(sl);
 		}
 		
 		
 		
 		//UNCOMMENT IF YOU WANT TO SEE ALL ROUTES
-		//map.addMarkers(routeList);
+		map.addMarkers(routeList);
 		
 		map.addMarkers(airportList);
 		
@@ -92,6 +94,8 @@ public class AirportMap extends PApplet {
 		map.draw();
 		
 	}
-	
 
+	public static void main(String[] args) {
+		PApplet.main("module6.AirportMap");
+	}
 }

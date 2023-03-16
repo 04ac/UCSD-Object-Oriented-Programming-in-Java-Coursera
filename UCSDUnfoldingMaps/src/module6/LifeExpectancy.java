@@ -74,5 +74,7 @@ public class LifeExpectancy extends PApplet {
 		}
 	}
 
-
+	public static void main(String[] args) {
+		PApplet.main("module6.LifeExpectancy");
+	}
 }
